@@ -25,7 +25,7 @@ Project is created with:
 #### npm usage
 
 ```sh
-npm install sanitize.css --save
+npm install neutonic.css --save
 # Coming Soon
 ```
 
@@ -34,14 +34,14 @@ npm install sanitize.css --save
 Import [sanitize.css] in CSS:
 
 ```css
-@import '~sanitize.css';
+@import '~neutonic.css';
 /*Coming Soon*/
 ```
 
 Alternatively, import [sanitize.css] in JS:
 
 ```js
-import 'sanitize.css'; 
+import 'neutonic.css'; 
 ```
 
 
