@@ -1,1 +1,26 @@
 /*  Import Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway|Source+Sans+Pro&display=swap');
+
+/* General Styling*/
+/* ========================================================================== */
+ 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+::before,
+::after {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+
+
+
+
+/* ========================================================================== */ 
+
+
+/* ========================================================================== */ 
