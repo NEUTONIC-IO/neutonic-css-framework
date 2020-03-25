@@ -31,14 +31,14 @@ npm install neutonic.css --save
 
 #### Webpack Usage
 
-Import [sanitize.css] in CSS:
+Import [neutonic.css] in CSS:
 
 ```css
 @import '~neutonic.css';
 /*Coming Soon*/
 ```
 
-Alternatively, import [sanitize.css] in JS:
+Alternatively, import [neutonic.css] in JS:
 
 ```js
 import 'neutonic.css'; 
