@@ -22,7 +22,7 @@ body {
   transition: all 0.1s ease-in-out;
 }
 
-.button span {
+.button:nth-child(1) {
   line-height: 100px;
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
