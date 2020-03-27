@@ -1,0 +1,11 @@
+{
+  "name": "neutonic",
+  "version": "1.0.0",
+  "description": "UI Library",
+  "main": "neutonic.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Rose",
+  "license": "ISC"
+}
