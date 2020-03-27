@@ -56,4 +56,7 @@ import 'neutonic.css';
 * 
 ## documentation
 
-* test
+* Just need the nuemorphism container ?
+*  add 'morph' class to a container div/section tag.
+*  Place element inside of container.
+*  Celebrate.
