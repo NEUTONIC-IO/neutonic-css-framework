@@ -16,6 +16,7 @@ Demo: https://neutonic-io.github.io/neutonic-css-framework/
 ## Technologies
 Project is created with:
 * [nodeJs version: 13.11.0](https://nodejs.org/en/about/)
+* [CSS3]()
 
 
 
