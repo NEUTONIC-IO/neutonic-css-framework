@@ -40,7 +40,7 @@ body {
 }
 
 /*Heading Styles*/
-/* ========================================================================== */ 
+/* ========================================================================== */
 
 
 
@@ -50,7 +50,7 @@ body {
 
 
 /*Navbar Styling*/
-/* ========================================================================== */ 
+/* ========================================================================== */
 
 
 .navbar {
@@ -86,36 +86,42 @@ body {
   background-color: #051937!important;
 }
 
-.green {
-  background-color: !important;
-}
+/*.green {*/
+/*  background-color: !important;*/
+/*}*/
 
-.yellow {
-  background-color: !important;
-}
+/*.yellow {*/
+/*  background-color: !important;*/
+/*}*/
 
-.purple {
-  background-color: !important;
-}
+/*.purple {*/
+/*  background-color: !important;*/
+/*}*/
 
-.black {
- background-color: !important; 
-}
+/*.black {*/
+/* background-color: !important; */
+/*}*/
 
-.white {
-  background-color: !important;
-}
+/*.white {*/
+/*  background-color: !important;*/
+/*}*/
 
-.redTo {
-  background-color: !important;
-}
+/*.redTo {*/
+/*  background-color: !important;*/S
+/*}*/
 /* ========================================================================== */ 
 
 
+
+/*buttons*/
 /* ========================================================================== */ 
 
+button,.button {
+  
+}
 
 /* ========================================================================== */ 
+
 
 
 /* ========================================================================== */ 
