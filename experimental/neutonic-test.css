@@ -1,0 +1,64 @@
+/*  Import Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway|Source+Sans+Pro&display=swap');
+
+/* General Styling*/
+/* ========================================================================== */
+ 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+::before,
+::after {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+/*Main Styling*/
+/* ========================================================================== */ 
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #E0E5EC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  /* Basic styling and alignment */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:100px;
+  border-radius:4px;
+  width:150px;
+  height:150px;
+  /* Basic styling and alignment */
+  /* For Neumorphism Effect */
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255, 0.5);
+    /* For Neumorphism Effect */
+}
+
+
+/* ========================================================================== */ 
+
+
+/* ========================================================================== */ 
+
+
+/* ========================================================================== */ 
+
+
+/* ========================================================================== */ 
+
