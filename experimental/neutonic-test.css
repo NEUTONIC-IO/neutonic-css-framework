@@ -9,20 +9,30 @@ body {
   height: 100%;
   margin: 0;
   background: linear-gradient(318.32deg, #C3D1E4 0%, #DDE7F3 55%, #D4E0ED 100%);
-  display: grid;
+  display: flex;
+  justify-content: space-around;
   place-items: center;
 }
 
-.btns-wrapper {
-  display: grid;
-  grid-auto-flow: column;
+.tray-container {
+  display: flex;
+  justify-content: space-around;
+  /*grid-auto-flow: column;*/
   padding: 16px;
   gap: 24px;
   -webkit-transform: scale(3);
           transform: scale(3);
+  border-radius: 50px;
+  background: -webkit-linear-gradient(302deg, #C3D1E4 0%, #DDE7F3 55%, #D4E0ED 100%);
+  background: -moz-linear-gradient(302deg, #C3D1E4 0%, #DDE7F3 55%, #D4E0ED 100%);
+  background: -o-linear-gradient(302deg, #C3D1E4 0%, #DDE7F3 55%, #D4E0ED 100%);
+  background: linear-gradient(32deg, #C3D1E4 0%, #DDE7F3 55%, #D4E0ED 100%);
+  /*box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #FFFFFF;*/
+  
+  box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
 }
 
-.btn {
+.icon {
   width: 62px;
   height: 62px;
   position: relative;
@@ -31,19 +41,22 @@ body {
   box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #FFFFFF;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+  margin: 5px;
 }
 
-.btn .inner-wrapper {
+.icon .inner-icon {
   width: 100%;
   height: 100%;
   border-radius: 16px;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*place-items: center;*/
 }
 
-.btn .inner-wrapper i {
+.icon .inner-icon i {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -56,11 +69,11 @@ body {
   text-shadow: 2px 2px 2px #d6e1ef99, 0 0 0 #000, 2px 2px 2px #d6e1ef00;
 }
 
-.btn.active .inner-wrapper {
+.icon.active .inner-icon {
   box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
 }
 
-.btn.active .inner-wrapper i {
+.icon.active .inner-icon i {
   color: black;
   text-shadow: 1px 1px 1px #d6e1ef99, 0 0 0 #000, 1px 1px 1px #d6e1ef00;
 }
