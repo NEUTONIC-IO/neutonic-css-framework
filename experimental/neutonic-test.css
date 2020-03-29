@@ -33,8 +33,8 @@ body {
 }
 
 .icon {
-  width: 62px;
-  height: 62px;
+  min-width: 38px;
+  min-height: 38px;
   position: relative;
   border-radius: 18px;
   padding: 2px;
@@ -63,7 +63,7 @@ body {
           user-select: none;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  font-size: 32px;
+  font-size: 22px;
   position: relative;
   color: rgba(201, 215, 230, 0.8);
   text-shadow: 2px 2px 2px #d6e1ef99, 0 0 0 #000, 2px 2px 2px #d6e1ef00;
@@ -74,6 +74,6 @@ body {
 }
 
 .icon.active .inner-icon i {
-  color: black;
+  color: #000 ;
   text-shadow: 1px 1px 1px #d6e1ef99, 0 0 0 #000, 1px 1px 1px #d6e1ef00;
 }
